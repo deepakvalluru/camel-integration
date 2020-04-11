@@ -1,0 +1,12 @@
+camel:
+  springboot:
+    main-run-controller: true
+  component:
+    servlet:
+      mapping:
+        contextPath: /deepak/camel/*
+    rabbitmq:
+      hostname: localhost
+      port-number: 5672
+      username: guest
+      password: guest
